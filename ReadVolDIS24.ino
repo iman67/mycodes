@@ -185,7 +185,7 @@ void setup() {
   Serial.begin(9600);
   OCR0A = 0xAF;
   TIMSK0 |= _BV(OCIE0A);
-  // Servo button demo by Robojax.com
+  // Servo button 
   Serial.begin(9600);          //  setup serial
   myservo.attach(9);  // attaches the servo on pin 9 to the servo object
   pinMode(LEFT,INPUT_PULLUP); // assign pin 12 ass input for Left button
