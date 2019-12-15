@@ -1,6 +1,3 @@
-/*This code is about multitasking 
-In this code yu cas see two leds works together and one servo works by condition that you setup.
-*/
 #include <LEDDisplay74HC595.h>
 #include <TimerOne.h>
 #include <TimerThree.h>
